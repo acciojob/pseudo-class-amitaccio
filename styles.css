@@ -3,12 +3,12 @@
 	margin:20px;
 }
 #container :nth-child(1){
-	color:#f00;
+	color:rgb(255, 0, 0);
 	font-size:20px;
 	
 }
 #container :nth-child(3){
-	color:#f00;
+	color:rgb(255, 0, 0);
 	font-size:20px;
 	
 }
