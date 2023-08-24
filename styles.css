@@ -2,13 +2,14 @@
 #container{
 	margin:20px;
 }
-#container :nth-child(1){
-	color:rgb(255, 0, 0);
-	font-size:20px;
+#container :before{
+	 content:"Before Element";
+     font-size:20px;
+	 color:#f00;
 	
 }
-#container :nth-child(3){
-	color:rgb(255, 0, 0);
-	font-size:20px;
-	
+#container :after{
+	 content:"After Element";
+     font-size:20px;
+	 color:#f00;
 }
