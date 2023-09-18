@@ -2,14 +2,14 @@
 #container{
 	margin:20px;
 }
-#container :before{
+#container ::before{
 	 content:"Before Element";
      font-size:20px;
-	 color:rgb(255, 0, 0);
+	 color:#f00;
 	
 }
-#container :after{
+#container ::after{
 	 content:"After Element";
-     font-size:20px;
+     font-size:#f00;
 	 color:rgb(255, 0, 0);
 }
